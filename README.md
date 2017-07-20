@@ -14,7 +14,7 @@ Instructions
 Tested on Ubuntu 16.10 and OS X El Capitan (with Homebrew)
 
 1. Install Python 3.5/3.6 (and Pip if not installed automatically): https://www.python.org/downloads/ or `brew install python3`
-2. Clone or download the repository using the green button above.
+2. Clone or download the repository using the green button above: `git clone https://github.com/blha303/gitlab-discord-bridge.git .`
 3. Rename config.example.json to config.json and edit the file.
   * "secret" should be an arbitrary secret token that you'll be giving to Gitlab to make sure incoming requests to this bridge aren't from an attacker.
   * "token" should be a bot login token acquired after creating an application at https://discordapp.com/developers/applications/ and giving it a bot user.
